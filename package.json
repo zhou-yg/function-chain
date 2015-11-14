@@ -1,5 +1,5 @@
 {
-  "name": "z-zombies",
+  "name": "kette",
   "version": "1.0.0",
   "description": "function chain",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhou-yg/Zombies.git"
+    "url": "git+https://github.com/zhou-yg/kette.git"
   },
   "keywords": [
     "functional",
