@@ -1,5 +1,5 @@
 {
-  "name": "kette",
+  "name": "function-chain",
   "version": "1.0.0",
   "description": "function chain",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhou-yg/kette.git"
+    "url": "git+https://github.com/zhou-yg/function-chain.git"
   },
   "keywords": [
     "functional",
@@ -17,7 +17,7 @@
   "author": "zhouyg",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zhou-yg/Zombies/issues"
+    "url": "https://github.com/zhou-yg/function-chain/issues"
   },
-  "homepage": "https://github.com/zhou-yg/Zombies#readme"
+  "homepage": "https://github.com/zhou-yg/function-chain#readme"
 }
