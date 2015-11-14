@@ -1,0 +1,23 @@
+{
+  "name": "z-zombies",
+  "version": "1.0.0",
+  "description": "function chain",
+  "main": "index.js",
+  "scripts": {
+    "test": "no test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhou-yg/Zombies.git"
+  },
+  "keywords": [
+    "functional",
+    "program"
+  ],
+  "author": "zhouyg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhou-yg/Zombies/issues"
+  },
+  "homepage": "https://github.com/zhou-yg/Zombies#readme"
+}

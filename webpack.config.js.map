@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "webpack.config.js",
+  "sourceRoot": "",
+  "sources": [
+    "webpack.config.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,EAAA,MAAM,CAAC,OAAP,GAEE;AAAA,IAAA,KAAA,EACE;AAAA,MAAA,OAAA,EAAQ,kBAAR;KADF;AAAA,IAEA,MAAA,EACE;AAAA,MAAA,IAAA,EAAK,QAAL;AAAA,MACA,QAAA,EAAS,YADT;KAHF;AAAA,IAKA,OAAA,EACE;AAAA,MAAA,SAAA,EAAU,CAAC,EAAD,EAAI,KAAJ,CAAV;KANF;GAFF,CAAA;AAAA"
+}
