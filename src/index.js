@@ -73,4 +73,4 @@
 
 }).call(this);
 
-//# sourceMappingURL=zombies.js.map
+//# sourceMappingURL=index.js.map
