@@ -11,11 +11,8 @@
   connect = require('./connect').connect;
 
   compose = function(fnArr, end) {
-    if (isArray(end)) {
-      end.array = true;
-    }
     return fnArr.reduceRight(function(preResult, fn) {
-      if (isBranch(fn && !end.array)) {
+      if (isBranch(fn)) {
         return function(pre) {
           return fn.map(function(branchFnStack) {
             return compose(branchFnStack, preResult);

@@ -6,7 +6,7 @@
 
   fn0 = function(next) {
     return function(initArg) {
-      console.log(initArg);
+      console.log('initArg:', initArg);
       return next(initArg + 'a');
     };
   };
@@ -74,7 +74,7 @@
 
   b2 = s.branch([fn5, fn5]);
 
-  s(0);
+  s([]);
 
 
   /*

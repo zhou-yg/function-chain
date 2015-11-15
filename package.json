@@ -1,6 +1,6 @@
 {
   "name": "function-chain",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "function chain",
   "main": "index.js",
   "scripts": {

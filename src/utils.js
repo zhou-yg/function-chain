@@ -3,7 +3,7 @@
   var isAboutFn, isArray;
 
   isAboutFn = function(arg) {
-    return typeof arg === 'function' || arg.every && arg.every(function(fn) {
+    return typeof arg === 'function' || (isArray(arg)) && arg.length > 0 && arg.every(function(fn) {
       return typeof fn === 'function';
     });
   };

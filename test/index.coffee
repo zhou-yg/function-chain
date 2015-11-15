@@ -2,7 +2,7 @@ Z = require '../index'
 
 fn0 = (next)->
   return (initArg)->
-    console.log initArg
+    console.log 'initArg:',initArg
     next initArg + 'a'
 
 fn1 = (next)->
@@ -55,7 +55,7 @@ s1 = s.connect [fn2]
 b1 = s.branch [fn3,fn4]
 b2 = s.branch [fn5,fn5]
 
-s 0
+s []
 #s1 1
 #s2 2
 

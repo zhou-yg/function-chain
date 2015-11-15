@@ -5,11 +5,8 @@
 
 compose = (fnArr, end)->
 
-  if isArray end
-    end.array = true
-
   return fnArr.reduceRight (preResult, fn)->
-    if isBranch fn && !end.array
+    if isBranch fn
       return (pre)->
         fn.map (branchFnStack)->
           return compose branchFnStack,preResult
