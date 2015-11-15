@@ -46,12 +46,6 @@
     chain = function(_startArg, _endArg) {
       return buildChainCurry(_startArg, _endArg, fnStack);
     };
-    chain.connect = chain.c = function(fnArr) {
-      arrayPush(fnStack, fnArr);
-      return function(_startArg, _endArg) {
-        return buildChainCurry(_startArg, _endArg, fnStack);
-      };
-    };
     chain = connect(chain, buildChainCurry, fnStack);
     chain = branch(chain, buildChainCurry, fnStack);
     return chain;

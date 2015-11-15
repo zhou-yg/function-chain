@@ -1,3 +1,5 @@
+Z = require '../index'
+
 fn0 = (next)->
   return (initArg)->
     console.log initArg

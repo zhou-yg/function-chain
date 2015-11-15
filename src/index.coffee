@@ -36,13 +36,6 @@ buildChain = (startArg, fnStack)->
   chain = (_startArg, _endArg)->
     return buildChainCurry _startArg, _endArg, fnStack
 
-  chain.connect = chain.c = (fnArr)->
-    arrayPush fnStack,fnArr
-
-    return (_startArg,_endArg)->
-      #slice，防止引用
-      return buildChainCurry _startArg,_endArg,fnStack
-
   chain = connect chain,buildChainCurry,fnStack
   chain = branch chain,buildChainCurry,fnStack
 
