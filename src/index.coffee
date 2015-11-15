@@ -1,11 +1,15 @@
-{ isAboutFn } = require './utils'
+{ isAboutFn,isArray } = require './utils'
 { branch,isBranch,getBranch } = require './branch'
 { arrayPush } = require './array'
 { connect } = require './connect'
 
 compose = (fnArr, end)->
+
+  if isArray end
+    end.array = true
+
   return fnArr.reduceRight (preResult, fn)->
-    if isBranch fn
+    if isBranch fn && !end.array
       return (pre)->
         fn.map (branchFnStack)->
           return compose branchFnStack,preResult
